@@ -213,3 +213,58 @@ h5{
     display: block;
     cursor: pointer;
 }
+
+/*FOOTER*/
+.contact {
+    background-color: rgb(30, 29, 43);
+    color: #fff;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    border-color:rgb(64, 61, 99);
+    font-size: 16px;
+    margin-top: 20px;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+label {
+    flex: 1;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"],
+textarea {
+    flex: 4;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(64, 61, 99);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(245, 67, 165) ;
+    color: white ;
+}
+
+.contact h3, p{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
