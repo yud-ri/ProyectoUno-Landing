@@ -137,3 +137,55 @@ h5{
         transform: translateY(15px);
     }
 }
+
+/*SERVICES*/
+
+.container-card{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    padding: 40px;
+    text-align: center;
+    height: 350px;
+    box-shadow: 0 0 3px 0 rgb(64, 61, 99);
+    border-radius: 20px;
+    transform: scale (1);
+    transform: transform 0.6s ;
+}
+
+.card h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(64, 61, 99);
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(64, 61, 99);
+    margin: 20px;
+}
+
+.card img{
+    width: 80px;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgb(64, 61, 99);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.cta{
+    padding: 20px;
+    background-color: rgb(64, 61, 99);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+}
