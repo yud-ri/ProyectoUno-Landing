@@ -13,6 +13,7 @@ header{
     position: fixed;
     display: flex;
     justify-content: space-evenly;
+    padding:40px;
 }
 
 .menu{
@@ -68,6 +69,7 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-around;
+
 }
 
 .container_cover .text{
@@ -231,7 +233,6 @@ form {
     margin-top: 20px;
     align-items: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: none;
 }
 
 label {
@@ -267,4 +268,46 @@ button:hover {
 .contact h3, p{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 1000px) {
+    .card img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .container_cover{
+        background-color: rgb(245, 67, 165) ;
+    }
+
+    .container_cover .text h1, h5{
+        color: white;
+        max-width: 600px;
+    }
+
+    .container_cover .text p{
+        color: white;
+    }
+
+    .container_cover .svg img{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .card p{
+        display: none;
+    }
+
+    .card{
+        padding: 10px;
+        height: 200px;
+    }
+
 }
