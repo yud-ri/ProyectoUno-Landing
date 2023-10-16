@@ -189,3 +189,27 @@ h5{
     margin-top: 20px;
     text-decoration: none;
 }
+
+/*GALLERY*/
+
+.gallery{
+    background-color:  rgb(64, 61, 99);
+
+}
+
+.container-gallery{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+
+.gallery img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    cursor: pointer;
+}
